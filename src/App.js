@@ -64,6 +64,7 @@ function App() {
       setShowfinalResult(true);
     }
   };
+
   const restartQuiz = () => {
     setScore(0);
     setCurrentQuestion(0);
@@ -74,7 +75,7 @@ function App() {
       {/* Header */}
       <h1> Quize App</h1>
       {/* Current Score  */}
-      <h3 className="current-score"> Current Score: {score} </h3>
+      <h1 className="current-score"> Current Score: {score} </h1>
 
       {showFinalResult ? (
         <div className="final-result">
