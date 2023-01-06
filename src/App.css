@@ -51,7 +51,7 @@ button {
   border-radius: 30px;
   font-weight: bold;
 }
-.button:hover {
+li:hover {
   cursor: pointer;
 }
 .current-score {
